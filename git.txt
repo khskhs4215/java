@@ -1,0 +1,13 @@
+ITSC@DESKTOP-VM2C2DA MINGW64 /
+$ git config --global user.name
+KIMHS
+
+ITSC@DESKTOP-VM2C2DA MINGW64 /
+$ git config --global user.name 'KIMHS'
+
+ITSC@DESKTOP-VM2C2DA MINGW64 /
+$ git config --global user.email
+khskhs4215@naver.com
+
+ITSC@DESKTOP-VM2C2DA MINGW64 /
+$ git config --global user.email 'khskhs4215@naver.com'

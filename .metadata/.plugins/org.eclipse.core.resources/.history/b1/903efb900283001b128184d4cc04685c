@@ -1,0 +1,40 @@
+package quiz03;
+
+public class Singer {
+	
+	//field
+	private String name;
+	private String setsong; // private Song[] songs;
+	
+	// constructor
+	public Singer(String name) {
+		this.setsong = name;
+		
+	}
+	//method
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getSong() {
+		return setsong;
+	}
+
+	public void setSong(String song) {
+		this.setsong = song;
+	}
+	public void info() {
+		System.out.println(setsong);
+		
+	}
+	
+	
+	
+	
+	
+
+}

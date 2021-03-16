@@ -1,0 +1,11 @@
+package quiz01;
+
+public class Book {
+	 String title;
+	 String writer;
+	 int price;
+	 int stock;
+	 date pubDate;
+	 boolean isBest;
+
+}

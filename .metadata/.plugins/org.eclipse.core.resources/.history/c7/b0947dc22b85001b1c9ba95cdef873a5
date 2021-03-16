@@ -1,0 +1,35 @@
+package quiz06;
+
+public class Bakery {
+	
+	// field
+	private int breadCount;
+	private int breadPrice;
+	private int bakeryMoney;
+	
+	// constructor
+	public Bakery(int breadCount, int breadPrice, int bakeryMoney) {
+		this.breadCount = breadCount;
+		this.breadPrice = breadPrice;
+		this.bakeryMoney = bakeryMoney;
+	}
+	
+	// method
+	
+	// 1. 판매 메소드
+	// 1) 결과타입 : BreadAndChange
+	// 2) 메소드명 : sell
+	// 3) 매개변수 : int money
+	public BreadAndChange sell(int money) {
+		// 고객에게 돌려줄 BreadAndChange 생성
+		BreadAndChange bnc = new BreadAndchange()
+	}
+	
+	// 2. info
+	
+	// method
+	public void buy(Bakery bakery, int money) {
+		// bakery에서 판매한 빵과 잔돈을 받으면 됩니다.
+	}
+
+}
