@@ -12,7 +12,7 @@ public class Pizza {
 	super(); // 있어도되고 없어도됨.
 	this.dough = dough;
 	this.cheese = cheese;
-	
+	}
 		
 		// method
 		public void info() {
@@ -21,4 +21,4 @@ public class Pizza {
 	}
 	
 
-}
+

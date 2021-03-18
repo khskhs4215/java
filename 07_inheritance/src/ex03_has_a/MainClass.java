@@ -14,7 +14,7 @@ public class MainClass {
 		// 서브클래스의 Circle클래스의 객체가
 		// 정상적으로 생성되는지 확인합니다.
 		Circle c = new Circle();
-		c.setcircle(1, 1, 1.5);
+		c.setCircle(1, 1, 1.5);
 		c.circleInfo();
 
 	}

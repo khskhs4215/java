@@ -4,7 +4,7 @@ public class GogumaPizza extends Pizza{
 	
 	private String goguma;
 	
-	public GogumaPizza(String dough, int sheese, String goguma) {
+	public GogumaPizza(String dough, int cheese, String goguma) {
 		super(dough, cheese);
 		this.goguma = goguma;
 	}

@@ -6,7 +6,7 @@ public class Circle extends Coord{
 	private double radius;
 	
 	// method
-	public void setcircle(int x, int y, double radius);{
+	public void setCircle(int x, int y, double radius) {
 		// Coord클래스의 set() 메소드는 x, y 좌표값을 저장하는 메소드입니다.
 		// Circle클래스는 Coord클래스를 상속받았기 대문에
 		// Coord클래스의 모든 메소드를 자신의 것처럼 사용할 수 있다.
