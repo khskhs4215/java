@@ -1,6 +1,6 @@
 package ex12_abstract;
 
-public class Shape {
+public abstract class Shape {
 	
 	// method
 	// 모든 도형은 크기가 있다.

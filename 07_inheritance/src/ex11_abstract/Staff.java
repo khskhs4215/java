@@ -22,7 +22,7 @@ public abstract class Staff { // abstract public도 가능합니다.
 	}
 	
 	// method
-	public void name() {
+	public void info() {
 		System.out.println("직원명 : " + name);
 	}
 

@@ -2,21 +2,21 @@ package ex12_abstract;
 
 public class Circle extends Shape {
 	// field
-		private int width;
-		private int height;
+		private double radius;
+		
 		
 		// constructor
-		public Circle(int width, int height) {
+		public Circle(double radius) {
 			super();
-			this.width = width;
-			this.height = height;
+			this.radius = radius;
 		}
 	
-
+		
+	
+	// method
 	@Override
 	public double getArea() {
-		
-		return 0;
+		return Math.PI*Math.pow(radius, 2) ;
 	}
 
 }

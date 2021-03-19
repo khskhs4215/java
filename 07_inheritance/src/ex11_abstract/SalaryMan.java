@@ -11,7 +11,7 @@ public class SalaryMan extends Staff{
 	
 	// constructor
 	public SalaryMan(String name, int salary) {
-		super.name();
+		super(name);
 		this.salary = salary;
 	}
 	
