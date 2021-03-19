@@ -1,4 +1,4 @@
-package ex12_abstract;
+package ex13_interface;
 
 public class Square extends Rectangle{
 

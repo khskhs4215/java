@@ -1,7 +1,7 @@
-package ex12_abstract;
+package ex13_interface;
 
-public class Circle extends Shape {
-	// field
+public class Circle implements Shape {
+	
 		private double radius;
 		
 		
@@ -16,7 +16,7 @@ public class Circle extends Shape {
 	// method
 	@Override
 	public double getArea() {
-		return Math.PI*Math.pow(radius, 2) ;
+		return Math.PI * Math.pow(radius, 2) ;
 	}
 
 }

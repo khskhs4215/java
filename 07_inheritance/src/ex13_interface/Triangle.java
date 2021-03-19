@@ -1,6 +1,6 @@
-package ex12_abstract;
+package ex13_interface;
 
-public class Triangle extends Shape {
+public class Triangle implements Shape {
 	
 	// field
 	private int width;
@@ -17,7 +17,7 @@ public class Triangle extends Shape {
 
 	@Override
 	public double getArea() {
-		return width * height *0.5;
+		return width * height * 0.5;
 	}
 
 }
