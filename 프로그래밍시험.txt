@@ -1,0 +1,65 @@
+프로그래밍 언어 활용
+1. 서술형 : 30점(5점 * 6개)
+	1) 언어 번역기
+	 - 컴파일러 (외국책 번역) : 완성된 소스코드 -> 한 번에 번역
+	 - 인터프리터 (동시통역) : 한 줄의 소스코드 -> 곧바로 번역
+	2) 라이브러리, 패키지, 모듈
+	 - 모듈 : 개별 파일
+	 - 패키지 : 모듈이 모인 디렉터리 개념
+	 - 라이브러리 : 패키지 + 모듈의 모음
+	3) 메소드와 함수의 차이
+	 - 메소드 : 클래스 내부에 있는 함수
+	 - 함수 : 클래스 외부에 있는 함수
+	4) 클래스와 객체의 차이
+	 - 클래스 : 설계도 (붕어빵을 만드는 기계)
+	 - 객체 : 설계도로 만든 물건 (붕어빵)
+	5) 메소드
+	 - 오버로드 : 같은 이름이지만 다른 매개변수를 가진 메소드가 존재하는 것을 의미한다.
+	 - 오버라이드 : 상속 관계에서 슈퍼클래스가 가진 메소드를 동일한 모습으로 서브클래스가 다시 만드는 것을 의미한다.
+	6) 추상클래스와 인터페이스
+	 - 추상클래스 : 추상메소드가 하나 이상 존재하는 클래스
+	 - 인터페이스 : 전부추상메소드인 클래스(static, default 메소드 존재), 객체 생성이 불가능하다.
+	 - 추상클래스는 상속을 받고(extends), 인터페이스는 구현을 한다.(Implements)
+	 - 인터페이스 구현 클래스 : 모든 추상메소드를 반드시 오버라이드 해야 한다.
+	7) import ★★
+	 - java.lang 패키지 이외의 패키지에 존재하는 모든 클래스는 import가 필요하다.
+	 - java.util.Scanner
+	 - java.util.Arrays
+	 - java.util.Date
+	 - java.util.Calendar
+
+
+
+2. 실기형 : 70점(1문제) 어떤 메소드를 만드세요~ 라고 적혀있음
+	JDBC 활용한 도서관련 프로그램
+	1) DTO == VO
+	2) DAO
+	3) LibraryProgram (StaffManager)
+	4) Main
+
+	워크스페이스 C:\Exam 으로 변경
+	(글꼴, 테마, 인코딩 작업)
+
+	프로젝트에 ojdbc6.jar Build Path 잡는 법
+
+	문제에서 book.sql 파일 제공 - 작성된 쿼리문을 실행 (Oracle SQL Developer)
+	DB : Book테이블
+		bookNo, bookTitle, bookWriter, pubDate
+		number, varchar2,     varchr2,        date
+
+BookDto == Bookvo
+
+import java.sql.Date;
+
+class BookDto {
+  int bookNo;
+  String BookTitle;
+  String bookWriter;
+  Date pubDate
+
+	// 디폴트 생성자(1. 안만들기, 2. 만들기)
+	public BookDto() { }
+
+	// getter / setter
+
+	}
