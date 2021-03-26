@@ -1,8 +1,0 @@
-package quiz04;
-
-public class Gun {
-	
-	private String model;
-	private int bullet;
-
-}
